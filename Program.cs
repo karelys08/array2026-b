@@ -19,6 +19,31 @@ static double PromedioNotas(int[] notasx)
 
 int[] notas = {15,18,12,17,20}; 
 
+static int NotaMaxima(int[] notasx)
+{
+    int max= notasx[0]; 
+    for(int i = 1 ; i <notasx.Length; i++)
+    {
+        if(notasx[1]> max)
+        {
+            max =notasx[i]; 
+        }
+    }
+    return max; 
+}
+static int NotaMinina(int[] notasx)
+{
+    int min = notasx[0];
+    for(int i = 1; i <notasx.Length; i++)
+    {
+        if(notasx[1]<min)
+        {
+            min=notasx[1]; 
+        }
+    }
+    return min; 
+}
+
 ImprimirNotas(notas); 
 
 //promedio de notas 
@@ -26,18 +51,7 @@ double promedio = PromedioNotas (notas);
 Console.WriteLine($"Promedio de las notas : {promedio:F2}"); 
 
 //imprimir minino y maximo 
-int min = notas[0]; 
-int max= notas[0]; 
-for(int i = 1 ; i < notas.Length; i++ )
-{
-    if(notas[i]< min)
-    {
-        min= notas[i]; 
-    }
-    if(notas[i] > max)
-    {
-        max= notas[i]; 
-    }
-}
-Console.WriteLine($"minimo de notas: {min}"); 
-Console.WriteLine($"maximo de notas: {max}"); 
+int maxima= NotaMaxima(notas); 
+int minima= NotaMinina(notas); 
+Console.WriteLine($"minimo de notas: {minima}"); 
+Console.WriteLine($"maximo de notas: {maxima}"); 

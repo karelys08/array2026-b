@@ -12,3 +12,4 @@ D:\FUNDAMENOTSPROGRAMCION\charp\array\obj\Debug\net10.0\refint\array.dll
 D:\FUNDAMENOTSPROGRAMCION\charp\array\obj\Debug\net10.0\array.pdb
 D:\FUNDAMENOTSPROGRAMCION\charp\array\obj\Debug\net10.0\array.genruntimeconfig.cache
 D:\FUNDAMENOTSPROGRAMCION\charp\array\obj\Debug\net10.0\ref\array.dll
+D:\FUNDAMENOTSPROGRAMCION\charp\array\obj\Debug\net10.0\array.sourcelink.json
